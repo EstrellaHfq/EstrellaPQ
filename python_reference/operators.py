@@ -1,3 +1,33 @@
+"""
+HQF Reference Operator
+======================
+
+This module implements the initial reference Hamiltonian used by
+EstrellaPQ for numerical validation, software development, reproducibility,
+and cryptographic interface testing.
+
+The Hamiltonian implemented here is intentionally a simplified,
+partially coupled version of the HQF framework.
+
+Its purpose is to validate:
+
+    • spectral decomposition
+    • resonant projector construction
+    • numerical stability
+    • software architecture
+    • reference key generation
+
+This implementation should NOT be interpreted as the complete coupled
+HQF operator described in the theoretical framework.
+
+Future versions will progressively introduce the full multiscale
+interaction terms while preserving the external cryptographic API
+whenever possible.
+"""
+
+
+
+
 import numpy as np
 
 # ============================================================
