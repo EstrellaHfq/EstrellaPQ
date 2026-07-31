@@ -10,7 +10,9 @@ This repository contains:
 
 The Python reference is the mathematically complete version of the scheme.  
 The C and PQM4 implementations provide a structural and functional interface for integration, testing, and benchmarking.
+Project status
 
+This repository contains the reference prototype of HQF-Sign. The current Hamiltonian is a simplified, partially coupled operator intended for validating the software architecture, numerical routines and cryptographic API. It is not the complete coupled HQF operator described in the research programme. Future releases will incorporate the full interaction terms while preserving the external API whenever possible.
 ---------------------------------------------------------------------
 
 Overview
